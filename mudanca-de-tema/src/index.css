@@ -1,0 +1,22 @@
+@charset  'UTF-8';
+
+h1 {
+  font-size: 56px;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+}
+
+#cor {
+  display: flex;
+  justify-content: center; /* Centraliza horizontalmente */
+  align-items: center;    /* Centraliza verticalmente */
+  height: 200px;   
+  width: 200px;
+  box-shadow: 4px 4px 4px 4px black;
+
+  /* Adicionado para centralizar na tela */
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
